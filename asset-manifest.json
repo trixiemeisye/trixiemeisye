@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trixiemeisye/static/css/main.f4085708.css",
-    "main.js": "/trixiemeisye/static/js/main.b10d5c9b.js",
+    "main.css": "/trixiemeisye/static/css/main.eacb6203.css",
+    "main.js": "/trixiemeisye/static/js/main.0fc2d79c.js",
     "static/js/453.5184d5e1.chunk.js": "/trixiemeisye/static/js/453.5184d5e1.chunk.js",
     "static/media/matrikulasi.JPG": "/trixiemeisye/static/media/matrikulasi.0c7deb45984de949ff8d.JPG",
     "static/media/hcia.png": "/trixiemeisye/static/media/hcia.c6cfa4b2e6d91b276c89.png",
@@ -30,12 +30,12 @@
     "static/media/Documentation.jpg": "/trixiemeisye/static/media/Documentation.83b554ec0aa53dbc07f1.jpg",
     "static/media/face2.jpeg": "/trixiemeisye/static/media/face2.0c1703e3d408b959e6e4.jpeg",
     "index.html": "/trixiemeisye/index.html",
-    "main.f4085708.css.map": "/trixiemeisye/static/css/main.f4085708.css.map",
-    "main.b10d5c9b.js.map": "/trixiemeisye/static/js/main.b10d5c9b.js.map",
+    "main.eacb6203.css.map": "/trixiemeisye/static/css/main.eacb6203.css.map",
+    "main.0fc2d79c.js.map": "/trixiemeisye/static/js/main.0fc2d79c.js.map",
     "453.5184d5e1.chunk.js.map": "/trixiemeisye/static/js/453.5184d5e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4085708.css",
-    "static/js/main.b10d5c9b.js"
+    "static/css/main.eacb6203.css",
+    "static/js/main.0fc2d79c.js"
   ]
 }
