@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/trixiemeisye/static/css/main.eeddc587.css",
-    "main.js": "/trixiemeisye/static/js/main.5c830ad1.js",
+    "main.css": "/trixiemeisye/static/css/main.448d5148.css",
+    "main.js": "/trixiemeisye/static/js/main.578ae096.js",
     "static/js/453.5184d5e1.chunk.js": "/trixiemeisye/static/js/453.5184d5e1.chunk.js",
     "static/media/matrikulasi.JPG": "/trixiemeisye/static/media/matrikulasi.0c7deb45984de949ff8d.JPG",
     "static/media/hcia.png": "/trixiemeisye/static/media/hcia.c6cfa4b2e6d91b276c89.png",
     "static/media/ok.png": "/trixiemeisye/static/media/ok.29f76e5471b0a7f5ef1f.png",
     "static/media/card.glb": "/trixiemeisye/static/media/card.7b01c5b81976910c12a4.glb",
-    "static/media/depsenbud.jpg": "/trixiemeisye/static/media/depsenbud.e8b95463e800f067c0fb.jpg",
+    "static/media/depsenbud.jpg": "/trixiemeisye/static/media/depsenbud.53805ca7e0e66d7de2ff.jpg",
     "static/media/bebras2.jpg": "/trixiemeisye/static/media/bebras2.91843e771e6cbe004442.jpg",
     "static/media/ASDOS.jpg": "/trixiemeisye/static/media/ASDOS.c042b37ae5b43c468ac2.jpg",
     "static/media/dess (2).png": "/trixiemeisye/static/media/dess (2).c0232ef09326040b3f50.png",
@@ -30,12 +30,12 @@
     "static/media/Documentation.jpg": "/trixiemeisye/static/media/Documentation.83b554ec0aa53dbc07f1.jpg",
     "static/media/face2.jpeg": "/trixiemeisye/static/media/face2.0c1703e3d408b959e6e4.jpeg",
     "index.html": "/trixiemeisye/index.html",
-    "main.eeddc587.css.map": "/trixiemeisye/static/css/main.eeddc587.css.map",
-    "main.5c830ad1.js.map": "/trixiemeisye/static/js/main.5c830ad1.js.map",
+    "main.448d5148.css.map": "/trixiemeisye/static/css/main.448d5148.css.map",
+    "main.578ae096.js.map": "/trixiemeisye/static/js/main.578ae096.js.map",
     "453.5184d5e1.chunk.js.map": "/trixiemeisye/static/js/453.5184d5e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeddc587.css",
-    "static/js/main.5c830ad1.js"
+    "static/css/main.448d5148.css",
+    "static/js/main.578ae096.js"
   ]
 }
