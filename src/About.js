@@ -4,8 +4,10 @@ import Lanyard from './Lanyard/Lanyard';
 import profilePic from './assets/trixie.jpg'; // Ganti dengan foto Trixie jika ada
 import { FaMapMarkerAlt, FaUserFriends, FaBriefcase, FaGraduationCap, FaCertificate, FaProjectDiagram, FaLanguage, FaUsers } from 'react-icons/fa';
 import './About.css';
+import { useNavigate } from 'react-router-dom';
 
 export default function About() {
+  const navigate = useNavigate();
   return (
     <>
       <Lanyard />
@@ -19,7 +21,7 @@ export default function About() {
           avatarUrl={profilePic}
           showUserInfo={true}
           enableTilt={true}
-          onContactClick={() => window.location.href = '/contact'}
+          onContactClick={() => navigate('/contact')}
         />
         <AboutSection
           title="Experience"
