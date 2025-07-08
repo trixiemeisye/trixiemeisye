@@ -46,7 +46,7 @@ const projects = [
 export default function Work() {
   return (
     <main className="work-bg">
-      <div className="work-title">My Work</div>
+      <div className="work-title">Projects</div>
       <div className="work-list">
         {projects.map((project, index) => (
           <div className="work-card" key={index}>
