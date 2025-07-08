@@ -309,3 +309,12 @@
     border-radius: 50px;
   }
 }
+
+@media (max-width: 600px) {
+  .profile-card {
+    width: 95vw;
+    margin: 1rem auto;
+    padding: 1rem 0.5rem;
+    box-sizing: border-box;
+  }
+}

@@ -199,7 +199,7 @@ body, .about-bg {
   font-size: 1.05rem;
   color: #e7e7e7;
   box-shadow: 0 1px 4px #e573c71a;
-}
+} 
 
 .about-hero-avatar {
   max-width: 220px;
@@ -211,14 +211,21 @@ body, .about-bg {
 }
 
 @media (max-width: 600px) {
+  .about-hero-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
   .about-hero-avatar {
     max-width: 120px;
     margin: 0 auto 1rem auto;
     display: block;
   }
-  .about-hero-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  .about-hero-text {
+    width: 100%;
+    padding: 0;
   }
 } 

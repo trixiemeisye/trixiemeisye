@@ -113,4 +113,14 @@
     min-height: 180px;
     padding: 24px 10vw 18px 10vw;
   }
+}
+
+@media (max-width: 600px) {
+  .work-section,
+  .work-card {
+    width: 95vw;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    padding: 0.5rem;
+  }
 } 
