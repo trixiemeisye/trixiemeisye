@@ -35,7 +35,7 @@ const Navigation = () => {
           to="/"
           className="text-2xl font-bold text-primary flex items-center gap-2"
         >
-          <Heart className="w-6 h-6 text-accent" />
+          <Sparkles className="w-5 h-5 text-accent" />
           Trixie Meisye
           <Sparkles className="w-5 h-5 text-accent" />
         </Link>

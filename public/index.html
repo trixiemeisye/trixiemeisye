@@ -16,6 +16,13 @@
         var page = location.pathname.split("/")[2];
         location.replace("/trixiemeisye/#/" + page);
       }
+      // Jika path persis "/trixiemeisye/" (tanpa hash/route), redirect ke home
+      if (
+        window.location.pathname === "/trixiemeisye/" &&
+        (window.location.hash === "" || window.location.hash === "#/")
+      ) {
+        window.location.replace("/trixiemeisye/#/");
+      }
     </script>
     <title>Trixie Meisye</title>
   </head>
