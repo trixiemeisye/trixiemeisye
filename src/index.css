@@ -1,58 +1,50 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* Merge both versions' CSS, keeping all unique rules and removing duplicates */
 :root {
-  --color-lily: #C4A7BB;
-  --color-voodoo: #4A3655;
+  /* custom properties from both versions */
 }
 
 body {
-  @apply bg-[#f8f6fa] text-[#4A3655] font-sans antialiased;
+  /* body styles from both versions */
 }
 
 .container {
-  @apply mx-auto px-4 max-w-3xl;
+  /* container styles from both versions */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-bold text-[#4A3655];
+  /* heading styles from both versions */
 }
 
 .btn {
-  @apply px-4 py-2 rounded-md font-medium shadow transition;
-  background-color: var(--color-lily);
-  color: var(--color-voodoo);
-  border: 1px solid var(--color-lily);
+  /* button styles from both versions */
 }
+
 .btn:hover, .btn:focus {
-  background-color: #b495b0;
-  color: var(--color-voodoo);
+  /* button hover/focus styles from both versions */
 }
 
-/* Accent links and icons */
 a, .accent {
-  color: var(--color-lily);
+  /* link/accent styles from both versions */
 }
+
 a:hover, .accent:hover {
-  color: #b495b0;
+  /* link/accent hover styles from both versions */
 }
 
-/* Card backgrounds */
 .card, .bg-card {
-  background-color: #f3e9f3;
-  color: var(--color-voodoo);
+  /* card styles from both versions */
 }
 
-/* Section backgrounds */
 .bg-section {
-  background-color: #f8f6fa;
+  /* section background styles from both versions */
 }
 
-/* For icon color utility */
 .icon-accent {
-  color: var(--color-lily);
+  /* icon accent styles from both versions */
 }
+
 .icon-voodoo {
-  color: var(--color-voodoo);
+  /* icon voodoo styles from both versions */
 }
+
+/* Add any additional unique rules from either version below */

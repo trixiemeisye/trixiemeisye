@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Jika path kosong (root) dan tidak ada hash, redirect ke /#/
+      if (location.pathname.endsWith('trixiemeisye') && !location.hash) {
+        location.replace(location.pathname + '/#/'); 
+      }
+      if (
+        location.pathname === "/trixiemeisye/contact" ||
+        location.pathname === "/trixiemeisye/about" ||
+        location.pathname === "/trixiemeisye/work"
+      ) {
+        var page = location.pathname.split("/")[2];
+        location.replace("/trixiemeisye/#/" + page);
+      }
+    </script>
+    <title>Trixie Meisye</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

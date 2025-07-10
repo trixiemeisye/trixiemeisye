@@ -1,0 +1,126 @@
+/* Work Section Styles */
+.work-bg {
+  min-height: 100vh;
+  background: #181a20;
+  padding: 64px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-title {
+  font-size: 2.4rem;
+  font-weight: 900;
+  background: linear-gradient(90deg, #e573c7 10%, #b388ff 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.2rem;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.work-card {
+  background: rgba(35,38,47,0.82);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 #e573c733, 0 1.5px 8px #b388ff33;
+  border: 2px solid #b388ff33;
+  padding: 32px 28px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 440px;
+  min-height: 220px;
+  transition: transform 0.22s cubic-bezier(.4,2,.6,1), box-shadow 0.22s, border 0.22s;
+  position: relative;
+  overflow: hidden;
+}
+
+.work-card:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 16px 48px 0 #e573c755;
+  border-color: #e573c7;
+}
+
+.work-img {
+  width: 100%;
+  max-width: 240px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 12px #b388ff33;
+}
+
+.work-title-card {
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: #e573c7;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.work-subtitle {
+  color: #b388ff;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.work-img-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px;
+  width: 100%;
+  margin-bottom: 24px;
+  justify-items: center;
+}
+
+.work-img-multi {
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px #b388ff33;
+  border: 2px solid #23243a;
+  background: #23243a;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.work-img-multi:hover {
+  transform: scale(1.07) rotate(-2deg);
+  box-shadow: 0 6px 18px #e573c755;
+  border-color: #e573c7;
+}
+
+@media (max-width: 900px) {
+  .work-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .work-card {
+    width: 95vw;
+    min-height: 180px;
+    padding: 24px 10vw 18px 10vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .work-section,
+  .work-card {
+    width: 95vw;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    padding: 0.5rem;
+  }
+} 
