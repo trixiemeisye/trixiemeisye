@@ -21,7 +21,7 @@ export default function HeroSection() {
       <p className="text-1xl text-gray-500 mb-2 text-center">Final-Year Computer Engineering Student</p>
       {/* Description */}
       <p className="flex items-center gap-2 text-lg text-[#a48b9e] mb-6 text-center">
-        <span className="text-xl">♡</span>
+        <span className="text-xl"> ♡</span>
         Passionate about technology, teaching, and creating beautiful solutions
         <span className="text-xl"></span>
       </p>
@@ -29,7 +29,7 @@ export default function HeroSection() {
       <div className="flex gap-4 mb-8">
 
         <a
-          href="/CV/Trixie Meisye_CV.pdf"
+           href="https://trixiemeisye.github.io/trixiemeisye/CV/Trixie_Meisye_CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-8 py-3 rounded-full border-2 border-[#a48b9e] text-[#a48b9e] font-semibold bg-transparent hover:bg-[#f3e9f3] transition text-lg"

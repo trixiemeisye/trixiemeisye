@@ -18,10 +18,10 @@
       }
       // Jika path persis "/trixiemeisye/" (tanpa hash/route), redirect ke home
       if (
-        window.location.pathname === "/trixiemeisye/" &&
+        window.location.pathname === "/" &&
         (window.location.hash === "" || window.location.hash === "#/")
       ) {
-        window.location.replace("/trixiemeisye/#/");
+        window.location.replace("/#/");
       }
     </script>
     <title>Trixie Meisye</title>
