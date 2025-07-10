@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-lily: #C4A7BB;
+  --color-voodoo: #4A3655;
+}
+
+body {
+  @apply bg-[#f8f6fa] text-[#4A3655] font-sans antialiased;
+}
+
+.container {
+  @apply mx-auto px-4 max-w-3xl;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-[#4A3655];
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-medium shadow transition;
+  background-color: var(--color-lily);
+  color: var(--color-voodoo);
+  border: 1px solid var(--color-lily);
+}
+.btn:hover, .btn:focus {
+  background-color: #b495b0;
+  color: var(--color-voodoo);
+}
+
+/* Accent links and icons */
+a, .accent {
+  color: var(--color-lily);
+}
+a:hover, .accent:hover {
+  color: #b495b0;
+}
+
+/* Card backgrounds */
+.card, .bg-card {
+  background-color: #f3e9f3;
+  color: var(--color-voodoo);
+}
+
+/* Section backgrounds */
+.bg-section {
+  background-color: #f8f6fa;
+}
+
+/* For icon color utility */
+.icon-accent {
+  color: var(--color-lily);
+}
+.icon-voodoo {
+  color: var(--color-voodoo);
+}
