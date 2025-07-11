@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navigation from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
@@ -8,7 +8,7 @@ import ContactPage from '@/pages/ContactPage';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/trixiemeisye">
+    <HashRouter>
       <div className="bg-section min-h-screen flex flex-col">
         <Navigation />
         <main className="flex-1 w-full">
@@ -17,11 +17,10 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/work" element={<ProjectsPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
