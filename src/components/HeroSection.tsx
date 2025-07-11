@@ -29,7 +29,7 @@ export default function HeroSection() {
       <div className="flex gap-4 mb-8">
 
         <a
-           href="https://trixiemeisye.github.io/trixiemeisye/CV/Trixie Meisye_CV.pdf"
+           href="https://trixiemeisye.github.io/trixiemeisye/CV/TrixieMeisye_CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-8 py-3 rounded-full border-2 border-[#a48b9e] text-[#a48b9e] font-semibold bg-transparent hover:bg-[#f3e9f3] transition text-lg"
